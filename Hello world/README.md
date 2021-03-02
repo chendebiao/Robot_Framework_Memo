@@ -15,14 +15,15 @@ First Case
 
 ```
 
-## Logs the given message with the given level.
-Logs the given message with the given level.
+## Log
+### Logs the given message with the given level.
 
 Valid levels are TRACE, DEBUG, INFO (default), HTML, WARN, and ERROR. Messages below the current active log level are ignored.
 
 Messages logged with the WARN or ERROR levels will be automatically visible also in the console and in the Test Execution Errors section in the log file.
 
-## Logs the given message to the console.
+## Log To Console
+### Logs the given message to the console.
 
 By default uses the standard output stream. Using the standard error stream is possibly by giving the stream argument value STDERR (case-insensitive).
 
