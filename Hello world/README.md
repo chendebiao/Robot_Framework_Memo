@@ -14,7 +14,30 @@ First Case
     Log To Console	continued without newline.
 
 ```
+In **Console window** :
 
+```
+(base) cheng@linux:~/Documents/Robotframework/Hello word$ robot Hello\ world.robot 
+==============================================================================
+Hello world                                                                   
+==============================================================================
+[ WARN ] Hello, World!(Warn)                                                  
+First Case                                                            .Hello, console!(via Log)
+.Hello, console!(via Log To Console)
+.Hello, stderr!
+.Message starts here and is.continued without newline.
+First Case                                                            | PASS |
+------------------------------------------------------------------------------
+Hello world                                                           | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  /home/cheng/Documents/Robotframework/Hello word/output.xml
+Log:     /home/cheng/Documents/Robotframework/Hello word/log.html
+Report:  /home/cheng/Documents/Robotframework/Hello word/report.html
+(base) cheng@linux:~/Documents/Robotframework/Hello word$ 
+
+```
 ## Log
 ### Logs the given message with the given level.
 
