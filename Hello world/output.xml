@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on linux)" generated="20210302 16:08:21.737" rpa="false">
+<suite id="s1" name="Hello world" source="/home/cheng/Documents/Robotframework/Hello word/Hello world.robot">
+<test id="s1-t1" name="First Case">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello, world!(INFO)</arg>
+</arguments>
+<msg timestamp="20210302 16:08:21.758" level="INFO">Hello, world!(INFO)</msg>
+<status status="PASS" starttime="20210302 16:08:21.758" endtime="20210302 16:08:21.758"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello, World!(Warn)</arg>
+<arg>WARN</arg>
+</arguments>
+<msg timestamp="20210302 16:08:21.758" level="WARN">Hello, World!(Warn)</msg>
+<status status="PASS" starttime="20210302 16:08:21.758" endtime="20210302 16:08:21.759"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello, console!(via Log)</arg>
+<arg>console=yes</arg>
+</arguments>
+<msg timestamp="20210302 16:08:21.759" level="INFO">Hello, console!(via Log)</msg>
+<status status="PASS" starttime="20210302 16:08:21.759" endtime="20210302 16:08:21.759"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hello, console!(via Log To Console)</arg>
+</arguments>
+<status status="PASS" starttime="20210302 16:08:21.759" endtime="20210302 16:08:21.759"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hello, stderr!</arg>
+<arg>STDERR</arg>
+</arguments>
+<status status="PASS" starttime="20210302 16:08:21.759" endtime="20210302 16:08:21.760"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Message starts here and is</arg>
+<arg>no_newline=true</arg>
+</arguments>
+<status status="PASS" starttime="20210302 16:08:21.760" endtime="20210302 16:08:21.760"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>continued without newline.</arg>
+</arguments>
+<status status="PASS" starttime="20210302 16:08:21.760" endtime="20210302 16:08:21.760"></status>
+</kw>
+<status status="PASS" starttime="20210302 16:08:21.757" endtime="20210302 16:08:21.760" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210302 16:08:21.739" endtime="20210302 16:08:21.761"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Hello world">Hello world</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210302 16:08:21.758" level="WARN">Hello, World!(Warn)</msg>
+</errors>
+</robot>
