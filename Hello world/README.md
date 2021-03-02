@@ -1,4 +1,18 @@
 # Hello World Demo
+## Log
+### Logs the given message with the given level.
+
+Valid levels are TRACE, DEBUG, INFO (default), HTML, WARN, and ERROR. Messages below the current active log level are ignored.
+
+Messages logged with the WARN or ERROR levels will be automatically visible also in the console and in the Test Execution Errors section in the log file.
+
+## Log To Console
+### Logs the given message to the console.
+
+By default uses the standard output stream. Using the standard error stream is possibly by giving the stream argument value STDERR (case-insensitive).
+
+By default appends a newline to the logged message. This can be disabled by giving the no_newline argument a true value (see Boolean arguments).
+
 In **Hello world.robot** :
 
 ```
@@ -36,18 +50,6 @@ Output:  /home/cheng/Documents/Robotframework/Hello word/output.xml
 Log:     /home/cheng/Documents/Robotframework/Hello word/log.html
 Report:  /home/cheng/Documents/Robotframework/Hello word/report.html
 (base) cheng@linux:~/Documents/Robotframework/Hello word$ 
-
 ```
-## Log
-### Logs the given message with the given level.
 
-Valid levels are TRACE, DEBUG, INFO (default), HTML, WARN, and ERROR. Messages below the current active log level are ignored.
-
-Messages logged with the WARN or ERROR levels will be automatically visible also in the console and in the Test Execution Errors section in the log file.
-
-## Log To Console
-### Logs the given message to the console.
-
-By default uses the standard output stream. Using the standard error stream is possibly by giving the stream argument value STDERR (case-insensitive).
-
-By default appends a newline to the logged message. This can be disabled by giving the no_newline argument a true value (see Boolean arguments).
+![Test Execution Log](https://github.com/chendebiao/Robot_Framework_Memo/blob/main/Hello%20world/Test%20Execution%20Log.jpg)
